@@ -1,0 +1,71 @@
+# Python Project Gitignore
+
+# Virtual Environment and IDE Files
+venv/
+ENV/
+env/
+
+# IDE Temporary Files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Editor Backup Files
+*~.py
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swn
+*.back
+
+# Local Development Files
+.env
+.local/.env
+venv/
+
+# Testing and Coverage Reports
+.coverage
+htmlcov/
+.pytest_cache/
+*.csv
+*.json
+*.xml
+*.sqlite3
+
+# Environment Specific Configuration
+config.py
+secrets.py
+
+# Generated Files
+*.out
+*.log
+*.err
+
+# Editor Auto-Generated Files
+.idea/
+.vscode/
+
+# Local and Remote Databases
+db.sqlite3
+*.db
+
+# IDE Log Files
+idea.log
+vscode.log
+
+# Build Artifacts
+build/
+dist/
+*.egg-info/
+
+# Language Server Cache
+.pyenv
+.mypy_cache/
+.pycache/
+
+# Docker Related
+docker-compose.*.json
